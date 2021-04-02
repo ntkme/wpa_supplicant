@@ -4,5 +4,5 @@
 docker run -d \
   --network=host \
   --volume /etc/wpa_supplicant:/etc/wpa_supplicant:ro \
-  ntkme/wpa_supplicant -D wired -i eth0 -c wpa_supplicant.conf
+  ghcr.io/ntkme/wpa_supplicant -D wired -i eth0 -c wpa_supplicant.conf
  ```
