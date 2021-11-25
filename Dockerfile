@@ -1,4 +1,4 @@
-FROM docker.io/library/alpine:3.14.3
+FROM docker.io/library/alpine:3.15.0
 
 RUN apk add --no-cache wpa_supplicant
 
